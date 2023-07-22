@@ -2,11 +2,13 @@
   "name": "nextjs-prisma-crud",
   "version": "0.1.0",
   "private": true,
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prestart": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.0.0",
